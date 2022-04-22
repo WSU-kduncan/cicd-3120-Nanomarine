@@ -1,3 +1,3 @@
   - The goals of this project are to containerize an application in Docker, automate it woth GitHub Actions, and use webhooks to keep production up to date.  
-  -
+  - I followed the steps listed on (this)[https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-20-04] website to install Docker on my Ubuntu instance.
   - To build and run the container, run "sudo docker build -t my-apache2 ." followed by "sudo docker run -dit --name my-running-app -p 8080:80 my-apache2". To see that it built correctly and is running go to http://54.145.115.214:8080/.
