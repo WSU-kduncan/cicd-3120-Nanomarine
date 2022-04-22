@@ -1,4 +1,4 @@
   - The goals of this project are to containerize an application in Docker, automate it woth GitHub Actions, and use webhooks to keep production up to date.  
   - I followed the steps listed on [this](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-20-04) website to install Docker on my Ubuntu instance.
   - To build and run the container, run "sudo docker build -t my-apache2 ." followed by "sudo docker run -dit --name my-running-app -p 8080:80 my-apache2". To see that it built correctly and is running go to http://54.145.115.214:8080/.
-  - In order to create a public repo on DockerHub, you simply need to make an account and then create a repo. You get one private repo with a free tier account.
+  - In order to create a public repo on DockerHub, you simply need to make an account and then create a repo. You get one private repo with a free tier account. In order to log into your account, run "docker login" in your terminal and fill out your info. I just used my username and password since I'm not storing anything worth stealing on my repos.
